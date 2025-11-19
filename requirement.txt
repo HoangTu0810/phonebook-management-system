@@ -1,2 +1,25 @@
+
+## 📝 requirements.txt
+
+```txt
 # Requirements for Phone Book Management System
-# No external dependencies required for basic functionality
+# Core application - no external dependencies required
+
+# Python Standard Library Dependencies Used:
+# - os
+# - csv
+# - json
+# - datetime
+# - hashlib
+# - random
+# - string
+# - typing
+
+# No additional packages need to be installed
+# The application uses only Python's built-in libraries
+
+# For development and testing (optional):
+# pylint>=2.12.0  # Code linting
+# autopep8>=1.6.0  # Code formatting
+
+# Note: This is a self-contained application that requires only Python 3.9+
