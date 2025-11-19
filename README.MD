@@ -1,86 +1,83 @@
-@"
-
 # 📞 PhoneBook Management System
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Hệ thống quản lý danh bạ điện thoại được phát triển bằng Python với đầy đủ tính năng CRUD, quản lý người dùng và sao lưu dữ liệu.
+A comprehensive phonebook management system developed in Python with full CRUD functionality, user management, and data backup features.
 
-## ✨ Tính năng nổi bật
+## ✨ Key Features
 
-### 👤 Cho người dùng thông thường
+### 👤 For Regular Users
 
-- ✅ **Đăng ký/Đăng nhập** tài khoản
-- ✅ **Thêm, sửa, xóa** liên hệ
-- ✅ **Tìm kiếm** liên hệ theo nhiều tiêu chí
-- ✅ **Quản lý nhóm** liên hệ
-- ✅ **Đánh dấu yêu thích** liên hệ
-- ✅ **Xuất/nhập** liên hệ từ file TXT
-- ✅ **Cập nhật** hồ sơ người dùng
+- ✅ **Register/Login** account
+- ✅ **Add, Edit, Delete** contacts
+- ✅ **Search** contacts by multiple criteria
+- ✅ **Group Management** for contacts
+- ✅ **Mark/Unmark Favorite** contacts
+- ✅ **Import/Export** contacts from TXT files
+- ✅ **Update** user profile
 
-### 👑 Cho quản trị viên
+### 👑 For Administrators
 
-- ✅ **Quản lý người dùng** (kích hoạt/vô hiệu hóa)
-- ✅ **Sao lưu hệ thống**
-- ✅ **Xem toàn bộ** dữ liệu
+- ✅ **User Management** (activate/deactivate users)
+- ✅ **System Backup**
+- ✅ **View All** data
 
-## 🛠 Cài đặt và chạy
+## 🛠 Installation and Setup
 
-### Yêu cầu hệ thống
+### System Requirements
 
 - Python 3.9+
-- Không cần thư viện bên ngoài
+- No external dependencies required
 
-### Chạy ứng dụng
+### Running the Application
 
-\`\`\`bash
-
+```bash
 # Clone repository
-
 git clone https://github.com/your-username/phonebook-management-system.git
 cd phonebook-management-system
 
-# Chạy ứng dụng
-
+# Run the application
 python main.py
-\`\`\`
 
-### Tài khoản mặc định (Admin)
 
-\`\`\`
-Email: admin@system.com
-Password: admin123
-\`\`\`
-
-## 📁 Cấu trúc dự án
+## 📁 Project Structure
 
 \`\`\`
 phonebook-management-system/
-├── main.py # Điểm khởi chạy chính
-├── models.py # Định nghĩa User và Contact
-├── system.py # Logic nghiệp vụ chính
-├── ui.py # Giao diện người dùng
-├── data/ # Thư mục dữ liệu
-├── requirements.txt # Danh sách dependencies
-├── contacts_import.txt # File import mẫu
-├── task_assignment.md # Phân công công việc
-├── tools_evidence.md # Bằng chứng công cụ
-└── README.md # Tài liệu này
+├── main.py                 # Main application entry point
+├── models.py              # User and Contact model definitions
+├── system.py              # Core business logic
+├── ui.py                  # User interface
+├── data/                  # Data storage directory
+│   ├── users.txt          # User data file
+│   ├── contacts.txt       # Contact data file
+│   └── backups/           # Backup files directory
+├── requirements.txt       # Dependencies list
+├── contacts_import.txt    # Sample import file
+├── task_assignment.md     # Task distribution
+├── tools_evidence.md      # Development tools evidence
+└── README.md              # This documentation
 \`\`\`
 
-## 👥 Thành viên phát triển
 
-| Thành viên        | Công việc chính             |
-| ----------------- | --------------------------- |
-| Nguyễn Hoàng Tú   | Quản lý liên hệ, Models     |
-| Huỳnh An          | Đăng nhập, Đăng ký, UI      |
-| Trần Việt Đức     | Xóa liên hệ, Reset password |
-| Nguyễn Trí Nguyên | Quản lý người dùng, Backup  |
+🔧 Development Tools
+Python 3.9+ - Programming language
 
-## 🔧 Công cụ phát triển
+VS Code - Development environment
 
-- **Python 3.9+** - Ngôn ngữ lập trình
-- **VS Code** - Môi trường phát triển
-- **Git** - Quản lý phiên bản
-- **GitHub** - Lưu trữ mã nguồn
+Git - Version control
+
+GitHub - Source code hosting
+
+🚀 Quick Start
+Ensure Python 3.9+ is installed on your system
+
+Download or clone the project files
+
+Navigate to the project directory
+
+Run python main.py
+
+Use the default admin credentials or register a new account
+```
