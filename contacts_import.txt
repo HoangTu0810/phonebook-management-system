@@ -1,0 +1,2 @@
+first_name,last_name,phone,email,address,group,notes
+nguyen van b,b,098542653,,,favorite,

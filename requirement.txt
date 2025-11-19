@@ -1,0 +1,2 @@
+# Requirements for Phone Book Management System
+# No external dependencies required for basic functionality

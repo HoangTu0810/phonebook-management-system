@@ -1,0 +1,4 @@
+# PhoneBook Users Data
+# Format: user_id|username|email|password_hash|role|created_at|last_login|is_active|reset_token|reset_token_expiry
+1|admin|admmin@system.com|240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9|admin|2025-11-19T15:11:07.636063|None|True|None|None
+2|nguyenvan|a|8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92|user|2025-11-19T15:12:09.932294|2025-11-19T15:14:17.185772|True|None|None
