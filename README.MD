@@ -5,23 +5,23 @@
 
 A comprehensive phonebook management system developed in Python with full CRUD functionality, user management, and data backup features.
 
-## ✨ Key Features
+##  Key Features
 
-### 👤 For Regular Users
+###  For Regular Users
 
-- ✅ **Register/Login** account
-- ✅ **Add, Edit, Delete** contacts
-- ✅ **Search** contacts by multiple criteria
-- ✅ **Group Management** for contacts
-- ✅ **Mark/Unmark Favorite** contacts
-- ✅ **Import/Export** contacts from TXT files
-- ✅ **Update** user profile
+-  **Register/Login** account
+-  **Add, Edit, Delete** contacts
+-  **Search** contacts by multiple criteria
+-  **Group Management** for contacts
+-  **Mark/Unmark Favorite** contacts
+-  **Import/Export** contacts from TXT files
+-  **Update** user profile
 
-### 👑 For Administrators
+###  For Administrators
 
-- ✅ **User Management** (activate/deactivate users)
-- ✅ **System Backup**
-- ✅ **View All** data
+-  **User Management** (activate/deactivate users)
+-  **System Backup**
+-  **View All** data
 
 ## 🛠 Installation and Setup
 
@@ -70,7 +70,7 @@ Git - Version control
 
 GitHub - Source code hosting
 
-🚀 Quick Start
+ Quick Start
 Ensure Python 3.9+ is installed on your system
 
 Download or clone the project files
